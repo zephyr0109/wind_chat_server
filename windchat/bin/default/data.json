@@ -1,0 +1,88 @@
+[
+	{
+		"_id": "star8076",
+		"password": "$2a$10$j6vdxpoWsuBzfsMwChUjH.QtPZpYYGhi2b/7m/fY/xqSghJo8p1N2",
+		"name": "임준열",
+		"birth_day": ISODate("2020-08-25T09:54:52.748+0000"),
+		"locked": false,
+		"_class": "com.zephyr.windchat.domain.User"
+	},
+	{
+		"_id": "zephyr0109",
+		"password": "$2a$10$UvXZy9wbwXTLYu8HrYgO4.lRMzf2D/NbqJfvFLi/HXG0Mst37d25W",
+		"name": "testuser",
+		"birth_day": ISODate("2020-08-27T11:49:04.792+0000"),
+		"locked": false,
+		"_class": "com.zephyr.windchat.domain.User"
+	},
+	{
+		"_id": "test1",
+		"createTime": ISODate("2020-08-26T06:36:42.109+0000"),
+		"name": "updated2",
+		"users": [
+			"star8076",
+			"ccw"
+		],
+		"owner": "star8076",
+		"_class": "com.zephyr.windchat.domain.Room"
+	},
+	{
+		"_id": "test2",
+		"name": "test room",
+		"users": [
+			"zephyr",
+			"ccw"
+		],
+		"owner": "zephyr",
+		"_class": "com.zephyr.windchat.domain.Room"
+	},
+	{
+		"_id": ObjectId("5f5f4ff449be6060c6c428c1"),
+		"roomId": ObjectId("5f46029fead5c71c954ddd96"),
+		"writer": "star8076",
+		"msg": "test message",
+		"_class": "com.zephyr.windchat.domain.Message"
+	},
+	{
+		"_id": ObjectId("5f5f5074db413d5576eb6500"),
+		"roomId": ObjectId("5f46029fead5c71c954ddd96"),
+		"writer": "star8076",
+		"msg": "test message",
+		"_class": "com.zephyr.windchat.domain.Message"
+	},
+	{
+		"_id": ObjectId("5f5f509ccee57b0dbf474335"),
+		"roomId": ObjectId("5f46029fead5c71c954ddd96"),
+		"writer": "star8076",
+		"msg": "test message",
+		"_class": "com.zephyr.windchat.domain.Message"
+	},
+	{
+		"_id": ObjectId("5f5f5149d09b4807236e3b51"),
+		"roomId": ObjectId("5f46029fead5c71c954ddd96"),
+		"writer": "star8076",
+		"msg": "test message",
+		"_class": "com.zephyr.windchat.domain.Message"
+	},
+	{
+		"_id": ObjectId("5f5f5195fc4aa267bb948c25"),
+		"roomId": ObjectId("5f46029fead5c71c954ddd96"),
+		"writer": "star8076",
+		"msg": "test message",
+		"_class": "com.zephyr.windchat.domain.Message"
+	},
+	{
+		"_id": ObjectId("5f5f51cc7faada15c210aacc"),
+		"roomId": ObjectId("5f46029fead5c71c954ddd96"),
+		"writer": "star8076",
+		"msg": "test message",
+		"_class": "com.zephyr.windchat.domain.Message"
+	},
+	{
+		"_id": ObjectId("5f5f5254df883e35dd618668"),
+		"roomId": ObjectId("5f46029fead5c71c954ddd96"),
+		"writer": "star8076",
+		"msg": "test message",
+		"_class": "com.zephyr.windchat.domain.Message"
+	}
+]
